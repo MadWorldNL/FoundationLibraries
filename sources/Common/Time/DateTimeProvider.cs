@@ -1,4 +1,4 @@
-namespace MadWorldNL;
+namespace MadWorldNL.Common.Time;
 
 public class DateTimeProvider : IDateTimeProvider
 {

@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment-units", "deploym
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.AspNetCore", "Common.AspNetCore\Common.AspNetCore.csproj", "{574DF620-0389-46A1-B90E-4B51A6C5A0A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,11 +22,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF} = {F771A94B-1D3F-43CC-95E4-49C6816FAEEF}
+		{574DF620-0389-46A1-B90E-4B51A6C5A0A3} = {F771A94B-1D3F-43CC-95E4-49C6816FAEEF}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574DF620-0389-46A1-B90E-4B51A6C5A0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574DF620-0389-46A1-B90E-4B51A6C5A0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574DF620-0389-46A1-B90E-4B51A6C5A0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574DF620-0389-46A1-B90E-4B51A6C5A0A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

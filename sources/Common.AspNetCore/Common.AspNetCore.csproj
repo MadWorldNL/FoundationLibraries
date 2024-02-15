@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <RootNamespace>MadWorldNL.Common</RootNamespace>
+        <RootNamespace>MadWorldNL.Common.AspNetCore</RootNamespace>
         <AssemblyName>$(RootNamespace)</AssemblyName>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
     
     <PropertyGroup>
-        <PackageId>MadWorldNL.Common</PackageId>
+        <PackageId>MadWorldNL.Common.AspNetCore</PackageId>
         <Version>1.0.1</Version>
         <Description>
-            Contains common classes and methods used in other MadWorldNL packages.
+            Contains MadWorldNL Common libraries for ASP.NET Core applications
         </Description>
         <PackageProjectUrl>https://github.com/MadWorldNL/FoundationLibraries</PackageProjectUrl>
         <PackageIcon>MadWorldLogo_Icon.png</PackageIcon>
@@ -18,15 +18,20 @@
         <RepositoryUrl>https://github.com/MadWorldNL/FoundationLibraries</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageReleaseNotes>
-            1. Add DateTime Provider
+            1. Add DateTime Provider for ASP.NET Core
         </PackageReleaseNotes>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageTags>MadWorldNL, Common, Foundation, Libraries</PackageTags>
+        <PackageTags>MadWorldNL, Common, Foundation, Libraries, ASP.NET Core</PackageTags>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MadWorldNL.Common" />
+      <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    </ItemGroup>
 
     <ItemGroup>
         <None Include="images\MadWorldLogo_Icon.png" Pack="true" PackagePath="\"/>
         <None Include="README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
-    
+
 </Project>
