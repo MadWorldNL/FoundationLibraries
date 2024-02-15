@@ -1,6 +1,8 @@
 <Project>
     <PropertyGroup>
         <Company>Mad-World.nl</Company>
+        <Copyright>Copyright (c) Mad-World.nl 2024</Copyright>
+        <Authors>Oscar Veldman</Authors>
         <Product>Foundation Libraries</Product>
     </PropertyGroup>
     

@@ -2,6 +2,30 @@
 
     <PropertyGroup>
         <AssemblyName>$(RootNamespace).Common</AssemblyName>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageId>MadWorldNL.Common</PackageId>
+        <Version>1.0.0</Version>
+        <Description>
+            Contains common classes and methods used in other MadWorldNL packages.
+        </Description>
+        <PackageProjectUrl>https://github.com/MadWorldNL/FoundationLibraries</PackageProjectUrl>
+        <PackageIcon>MadWorldLogo_Icon.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/MadWorldNL/FoundationLibraries</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>
+            1. Add DateTime Provider
+        </PackageReleaseNotes>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>MadWorldNL, Common, Foundation, Libraries</PackageTags>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="images\MadWorldLogo_Icon.png" Pack="true" PackagePath="\"/>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+    
 </Project>
