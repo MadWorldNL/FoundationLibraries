@@ -8,7 +8,7 @@
     
     <PropertyGroup>
         <PackageId>MadWorldNL.Common.AspNetCore</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Description>
             Contains MadWorldNL Common libraries for ASP.NET Core applications
         </Description>
@@ -19,6 +19,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageReleaseNotes>
             1. Add DateTime Provider for ASP.NET Core
+            2. Add default DB connection string builder
         </PackageReleaseNotes>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageTags>MadWorldNL, Common, Foundation, Libraries, ASP.NET Core</PackageTags>

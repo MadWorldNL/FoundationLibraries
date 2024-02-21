@@ -8,7 +8,7 @@
     
     <PropertyGroup>
         <PackageId>MadWorldNL.Common</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Description>
             Contains common classes and methods used in other MadWorldNL packages.
         </Description>
