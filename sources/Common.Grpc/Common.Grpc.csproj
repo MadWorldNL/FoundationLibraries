@@ -1,16 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <RootNamespace>MadWorldNL.Common</RootNamespace>
+        <RootNamespace>MadWorldNL.Common.Grpc</RootNamespace>
         <AssemblyName>$(RootNamespace)</AssemblyName>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
-    
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.Core" />
+      <PackageReference Include="MadWorldNL.Common" />
+      <PackageReference Include="Microsoft.Extensions.Logging" />
+    </ItemGroup>
+
     <PropertyGroup>
-        <PackageId>MadWorldNL.Common</PackageId>
+        <PackageId>MadWorldNL.Common.Grpc</PackageId>
         <Version>1.0.3</Version>
         <Description>
-            Contains common classes and methods used in other MadWorldNL packages.
+            Contains common grpc classes and methods.
         </Description>
         <PackageProjectUrl>https://github.com/MadWorldNL/FoundationLibraries</PackageProjectUrl>
         <PackageIcon>MadWorldLogo_Icon.png</PackageIcon>
@@ -18,16 +24,15 @@
         <RepositoryUrl>https://github.com/MadWorldNL/FoundationLibraries</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageReleaseNotes>
-            1. Add DateTime Provider
-            2. Add a common ValidationException
+            1. Add global error handler
         </PackageReleaseNotes>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageTags>MadWorldNL, Common, Foundation, Libraries</PackageTags>
+        <PackageTags>MadWorldNL, Common, Foundation, Libraries, Grpc</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
         <None Include="images\MadWorldLogo_Icon.png" Pack="true" PackagePath="\"/>
         <None Include="README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
-    
+
 </Project>

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.AspNetCore", "Common.AspNetCore\Common.AspNetCore.csproj", "{574DF620-0389-46A1-B90E-4B51A6C5A0A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Grpc", "Common.Grpc\Common.Grpc.csproj", "{A40CB6A2-833A-4E8F-AF7A-3239AB7D9D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF} = {F771A94B-1D3F-43CC-95E4-49C6816FAEEF}
 		{574DF620-0389-46A1-B90E-4B51A6C5A0A3} = {F771A94B-1D3F-43CC-95E4-49C6816FAEEF}
+		{A40CB6A2-833A-4E8F-AF7A-3239AB7D9D2E} = {F771A94B-1D3F-43CC-95E4-49C6816FAEEF}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{04C3688B-9AAF-44A1-8363-2B52DA8A2FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,5 +38,9 @@ Global
 		{574DF620-0389-46A1-B90E-4B51A6C5A0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{574DF620-0389-46A1-B90E-4B51A6C5A0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{574DF620-0389-46A1-B90E-4B51A6C5A0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40CB6A2-833A-4E8F-AF7A-3239AB7D9D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40CB6A2-833A-4E8F-AF7A-3239AB7D9D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40CB6A2-833A-4E8F-AF7A-3239AB7D9D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40CB6A2-833A-4E8F-AF7A-3239AB7D9D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
